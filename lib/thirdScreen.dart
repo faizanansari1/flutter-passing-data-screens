@@ -6,6 +6,8 @@ class ThirdScreen extends StatelessWidget {
     final String message = ModalRoute.of(context).settings.arguments as String;
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Colors.black,
         title: Text('ThirdScreen - RoutesSetting'),
       ),
       body: Center(

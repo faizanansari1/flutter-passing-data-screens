@@ -8,7 +8,9 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text('Second Screen - parameter'),
+        centerTitle: true,
       ),
       body: Center(
         child: Text(

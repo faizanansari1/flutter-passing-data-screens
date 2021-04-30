@@ -44,9 +44,11 @@ class _FirstScreenState extends State<FirstScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         title: Text(
           "FirstScreen",
         ),
+        centerTitle: true,
       ),
       body: Center(
         child: Column(
